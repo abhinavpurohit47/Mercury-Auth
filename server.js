@@ -16,7 +16,7 @@ app.use(
 app.use(bodyParser.json());
 
 // DB Config
-const db = 'mongodb+srv://abhinav:abhinav@cluster0.hhlve.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const db = 'mongodb+srv://abhinav:abhinav@auth-mercury.6wmsk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 // Connect to MongoDB
 mongoose

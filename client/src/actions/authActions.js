@@ -7,7 +7,7 @@ import { GET_ERRORS, SET_CURRENT_USER, USER_LOADING } from "./types";
 // Register User
 export const registerUser = (userData, history) => dispatch => {
   axios
-    .post("https://themercury.herokuapp.com/api/users/register", userData)
+    .post("http://themercury.herokuapp.com/api/users/register", userData)
     .then(res => history.push("/login"))
     .catch(err =>{
     console.log(err)
@@ -22,7 +22,7 @@ export const registerUser = (userData, history) => dispatch => {
 // Login - get user token
 export const loginUser = userData => dispatch => {
   axios
-    .post("https://themercury.herokuapp.com/api/users/login", userData)
+    .post("http://themercury.herokuapp.com/api/users/login", userData)
     .then(res => {
       // Save to localStorage
 

@@ -49,12 +49,13 @@ class Dashboard extends Component {
                 marginTop: "1rem"
               }}
               className = "btn btn-large waves-effect waves-light hoverable blue accent-3">Chat</button></a>
-              <a href="#"> <button style={{
+              <a href="http://localhost:3000/"> <button style={{
                 width: "150px",
                 borderRadius: "3px",
                 letterSpacing: "1.5px",
                 marginTop: "1rem"
               }}
+              
               className = "btn btn-large waves-effect waves-light hoverable blue accent-3">Bid</button></a>
           </div>
         </div>
